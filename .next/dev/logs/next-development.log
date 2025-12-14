@@ -1,0 +1,1953 @@
+[00:01:54.482] Server  LOG     
+[00:01:54.483] Server  LOG        We detected TypeScript in your project and reconfigured your tsconfig.json file for you.
+[00:01:54.484] Server  LOG        The following suggested values were added to your tsconfig.json. These values can be changed to fit your project's needs:
+
+[00:01:54.485] Server  LOG        	- include was updated to add '.next/dev/types/**/*.ts'
+[00:01:54.486] Server  LOG     
+[00:01:54.487] Server  LOG        The following mandatory changes were made to your tsconfig.json:
+
+[00:01:54.488] Server  LOG        	- jsx was set to react-jsx (next.js uses the React automatic runtime)
+[00:01:54.488] Server  LOG     
+[00:02:38.156] Server  LOG      ✓ Ready in 142.1s
+[00:02:41.205] Server  LOG      ○ Compiling / ...
+[00:03:46.843] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:49.783] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head headCacheNode={{lazyData:null, ...}}>
+                    <__next_viewport_boundary__>
+                    <Next.Metadata>
+                      <div
+                        hidden={true}
+-                       bis_skin_checked="1"
+                      >
+                    ...
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" suppressHydrationWarning={true}>
+                          <body
+                            className="space_grotesk_a4177b3f-module__DCxVEW__variable jetbrains_mono_d5591ac2-module_..."
+-                           __processed_e39be7fe-40aa-492a-b24a-96391ffbf2cf__="true"
+-                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
+                          >
+                            ...
+                              <Navigation>
+                                <nav className="fixed top-...">
+                                  <div
+                                    className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between"
+-                                   bis_skin_checked="1"
+                                  >
+                                    <LinkComponent>
+                                    <div
+                                      className="hidden md:flex items-center gap-1"
+-                                     bis_skin_checked="1"
+                                    >
+                                    <div
+                                      className="flex items-center gap-2"
+-                                     bis_skin_checked="1"
+                                    >
+                              ...
+                                <SegmentViewNode type="page" pagePath="page.tsx">
+                                  <SegmentTrieNode>
+                                  <Home>
+                                    <section className="min-h-[cal...">
+                                      <div
+                                        className="absolute inset-0 bg-[linear-gradient(to_right,var(--border)_1px,tra..."
+-                                       bis_skin_checked="1"
+                                      >
+                                      <div
+                                        className="absolute top-1/4 left-1/2 -translate-x-1/2 w-[600px] h-[600px] bg-p..."
+-                                       bis_skin_checked="1"
+                                      >
+                                      <div
+                                        className="max-w-6xl mx-auto w-full relative z-10"
+-                                       bis_skin_checked="1"
+                                      >
+                                        <div
+                                          className="grid lg:grid-cols-2 gap-12 items-center"
+-                                         bis_skin_checked="1"
+                                        >
+                                          <div
+                                            className="space-y-8"
+-                                           bis_skin_checked="1"
+                                          >
+                                            <div
+                                              className="inline-flex items-center gap-2 px-4 py-2 rounded-full border ..."
+-                                             bis_skin_checked="1"
+                                            >
+                                            <div
+                                              className="space-y-4"
+-                                             bis_skin_checked="1"
+                                            >
+                                            <div
+                                              className="flex items-center gap-4"
+-                                             bis_skin_checked="1"
+                                            >
+                                            <div
+                                              className="flex flex-wrap gap-4 pt-4"
+-                                             bis_skin_checked="1"
+                                            >
+                                          <div
+                                            className="hidden lg:flex items-center justify-center"
+-                                           bis_skin_checked="1"
+                                          >
+                                            <div
+                                              className="relative"
+-                                             bis_skin_checked="1"
+                                            >
+                                              <div
+                                                className="w-[400px] rounded-2xl border border-border bg-card/50 backd..."
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+                                                  className="flex items-center gap-2 px-4 py-3 border-b border-border ..."
+-                                                 bis_skin_checked="1"
+                                                >
+                                                  <div
+                                                    className="w-3 h-3 rounded-full bg-destructive/70"
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  <div
+                                                    className="w-3 h-3 rounded-full bg-yellow-500/70"
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  <div
+                                                    className="w-3 h-3 rounded-full bg-primary/70"
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  ...
+                                                <div
+                                                  className="p-6 font-mono text-sm space-y-2"
+-                                                 bis_skin_checked="1"
+                                                >
+                                              <div
+                                                className="absolute -top-4 -right-4 w-24 h-24 border border-primary/30..."
+-                                               bis_skin_checked="1"
+                                              >
+                                              <div
+                                                className="absolute -bottom-4 -left-4 w-32 h-32 border border-primary/..."
+-                                               bis_skin_checked="1"
+                                              >
+                                ...
+                            ...
+                  ...
+
+[00:04:20.497] Browser LOG     [Vercel Web Analytics] Failed to load script from https://va.vercel-scripts.com/v1/script.debug.js. Please check if any ad blockers are enabled and try again.
+[00:14:57.635] Server  WARN     ⚠ Cross origin request detected from 192.168.1.159 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+[00:14:57.692] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:58.446] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:14:58.446] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:14:58.446] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.1.159:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://192.168.1.159:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765613338935}
+[00:18:23.984] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.1.159:3000/about color: rgb(120, 120, 120) color: inherit {"dp":"/about","o":"http://192.168.1.159:3000/about","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765613544479}
+[00:20:57.987] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.1.159:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://192.168.1.159:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765613698466}
+[03:12:04.361] Server  LOG      ✓ Compiled in 62.4s
+[03:15:51.742] Server  LOG      ✓ Compiled in 1422ms
+[03:18:12.048] Server  LOG      ✓ Compiled in 394ms
+[03:18:15.686] Server  LOG      ✓ Compiled in 1082ms
+[03:18:19.191] Server  LOG      ✓ Compiled in 1067ms
+[03:19:31.582] Server  LOG      ✓ Compiled in 489ms
+[03:19:37.502] Server  LOG      ✓ Compiled in 849ms
+[03:19:47.918] Server  LOG      ✓ Compiled in 332ms
+[03:19:54.376] Server  LOG      ✓ Compiled in 2.2s
+[03:20:01.820] Server  LOG      ✓ Compiled in 502ms
+[03:20:22.441] Server  LOG      ✓ Compiled in 760ms
+[03:20:25.638] Server  LOG      ✓ Compiled in 611ms
+[03:20:33.183] Server  LOG      ✓ Compiled in 816ms
+[03:20:42.049] Server  LOG      ✓ Compiled in 943ms
+[03:24:33.981] Server  LOG      ✓ Compiled in 3.5s
+[03:24:54.497] Server  LOG      ✓ Compiled in 5.3s
+[03:25:06.053] Server  LOG      ✓ Compiled in 6.4s
+[03:25:07.675] Server  LOG      ✓ Compiled in 4.3s
+[03:25:29.322] Server  LOG      ✓ Compiled in 2.4s
+[03:25:53.083] Server  LOG      ✓ Compiled in 456ms
+[03:26:10.271] Server  LOG      ✓ Compiled in 5.2s
+[03:26:16.895] Server  LOG      ✓ Compiled in 544ms
+[03:26:24.691] Server  LOG      ✓ Compiled in 1076ms
+[03:26:31.185] Server  LOG      ✓ Compiled in 649ms
+[03:26:41.229] Server  LOG      ✓ Compiled in 560ms
+[03:27:42.418] Server  LOG      ✓ Compiled in 1903ms
+[03:28:45.855] Server  LOG      ✓ Compiled in 485ms
+[03:28:48.566] Server  LOG      ✓ Compiled in 425ms
+[03:28:53.045] Server  LOG      ✓ Compiled in 281ms
+[03:29:36.637] Browser ERROR   ./app/about/page.tsx:56:5
+Parsing ecmascript source code failed
+  54 |     year: "2016-2018",
+  55 |     degree: "Basic Education certificate(BECE)"
+> 56 |     institution: "Wise virgin college, Kabba, Nigeria."
+     |     ^^^^^^^^^^^
+  57 |     des
+  58 |   }
+  59 | ]
+
+Expected ',', got 'institution'
+[03:29:36.762] Browser ERROR   ./app/about/page.tsx:56:5
+Parsing ecmascript source code failed
+  54 |     year: "2016-2018",
+  55 |     degree: "Basic Education certificate(BECE)"
+> 56 |     institution: "Wise virgin college, Kabba, Nigeria."
+     |     ^^^^^^^^^^^
+  57 |     description: 
+  58 |   }
+  59 | ]
+
+Expected ',', got 'institution'
+[03:29:41.836] Browser ERROR   ./app/about/page.tsx:56:5
+Parsing ecmascript source code failed
+  54 |     year: "2016-2018",
+  55 |     degree: "Basic Education certificate(BECE)"
+> 56 |     institution: "Wise virgin college, Kabba, Nigeria."
+     |     ^^^^^^^^^^^
+  57 |     description: "COn"
+  58 |   }
+  59 | ]
+
+Expected ',', got 'institution'
+[03:29:46.590] Browser ERROR   ./app/about/page.tsx:56:5
+Parsing ecmascript source code failed
+  54 |     year: "2016-2018",
+  55 |     degree: "Basic Education certificate(BECE)"
+> 56 |     institution: "Wise virgin college, Kabba, Nigeria."
+     |     ^^^^^^^^^^^
+  57 |     description: ""
+  58 |   }
+  59 | ]
+
+Expected ',', got 'institution'
+[03:29:53.669] Browser ERROR   ./app/about/page.tsx:56:5
+Parsing ecmascript source code failed
+  54 |     year: "2016-2018",
+  55 |     degree: "Basic Education certificate(BECE)"
+> 56 |     institution: "Wise virgin college, Kabba, Nigeria."
+     |     ^^^^^^^^^^^
+  57 |     description: "After leaving CIC"
+  58 |   }
+  59 | ]
+
+Expected ',', got 'institution'
+[03:30:01.825] Browser ERROR   ./app/about/page.tsx:56:5
+Parsing ecmascript source code failed
+  54 |     year: "2016-2018",
+  55 |     degree: "Basic Education certificate(BECE)"
+> 56 |     institution: "Wise virgin college, Kabba, Nigeria."
+     |     ^^^^^^^^^^^
+  57 |     description: "After leaving CIC, I continued my high scho"
+  58 |   }
+  59 | ]
+
+Expected ',', got 'institution'
+[03:30:08.600] Browser ERROR   ./app/about/page.tsx:56:5
+Parsing ecmascript source code failed
+  54 |     year: "2016-2018",
+  55 |     degree: "Basic Education certificate(BECE)"
+> 56 |     institution: "Wise virgin college, Kabba, Nigeria."
+     |     ^^^^^^^^^^^
+  57 |     description: "After leaving CIC, I continued my high school journe"
+  58 |   }
+  59 | ]
+
+Expected ',', got 'institution'
+[03:30:14.306] Browser ERROR   ./app/about/page.tsx:56:5
+Parsing ecmascript source code failed
+  54 |     year: "2016-2018",
+  55 |     degree: "Basic Education certificate(BECE)"
+> 56 |     institution: "Wise virgin college, Kabba, Nigeria."
+     |     ^^^^^^^^^^^
+  57 |     description: "After leaving CIC, I continued my high school journey at WVC"
+  58 |   }
+  59 | ]
+
+Expected ',', got 'institution'
+[03:30:29.593] Browser ERROR   ./app/about/page.tsx:56:5
+Parsing ecmascript source code failed
+  54 |     year: "2016-2018",
+  55 |     degree: "Basic Education certificate(BECE)"
+> 56 |     institution: "Wise virgin college, Kabba, Nigeria."
+     |     ^^^^^^^^^^^
+  57 |     description: "After leaving CIC, I continued my high school journey at WVC and a"
+  58 |   }
+  59 | ]
+
+Expected ',', got 'institution'
+[03:30:33.746] Browser ERROR   ./app/about/page.tsx:56:5
+Parsing ecmascript source code failed
+  54 |     year: "2016-2018",
+  55 |     degree: "Basic Education certificate(BECE)"
+> 56 |     institution: "Wise virgin college, Kabba, Nigeria."
+     |     ^^^^^^^^^^^
+  57 |     description: "After leaving CIC, I continued my high school journey at WVC and I obtained my J"
+  58 |   }
+  59 | ]
+
+Expected ',', got 'institution'
+[03:30:35.994] Browser ERROR   ./app/about/page.tsx:56:5
+Parsing ecmascript source code failed
+  54 |     year: "2016-2018",
+  55 |     degree: "Basic Education certificate(BECE)"
+> 56 |     institution: "Wise virgin college, Kabba, Nigeria."
+     |     ^^^^^^^^^^^
+  57 |     description: "After leaving CIC, I continued my high school journey at WVC and I obtained my Juni"
+  58 |   }
+  59 | ]
+
+Expected ',', got 'institution'
+[03:30:41.932] Browser ERROR   ./app/about/page.tsx:56:5
+Parsing ecmascript source code failed
+  54 |     year: "2016-2018",
+  55 |     degree: "Basic Education certificate(BECE)"
+> 56 |     institution: "Wise virgin college, Kabba, Nigeria."
+     |     ^^^^^^^^^^^
+  57 |     description: "After leaving CIC, I continued my high school journey at WVC and I obtained my BEC"
+  58 |   }
+  59 | ]
+
+Expected ',', got 'institution'
+[03:30:44.686] Browser ERROR   ./app/about/page.tsx:56:5
+Parsing ecmascript source code failed
+  54 |     year: "2016-2018",
+  55 |     degree: "Basic Education certificate(BECE)"
+> 56 |     institution: "Wise virgin college, Kabba, Nigeria."
+     |     ^^^^^^^^^^^
+  57 |     description: "After leaving CIC, I continued my high school journey at WVC and I obtained my BECE "
+  58 |   }
+  59 | ]
+
+Expected ',', got 'institution'
+[03:30:48.344] Browser ERROR   ./app/about/page.tsx:56:5
+Parsing ecmascript source code failed
+  54 |     year: "2016-2018",
+  55 |     degree: "Basic Education certificate(BECE)"
+> 56 |     institution: "Wise virgin college, Kabba, Nigeria."
+     |     ^^^^^^^^^^^
+  57 |     description: "After leaving CIC, I continued my high school journey at WVC and I obtained my BECE w"
+  58 |   }
+  59 | ]
+
+Expected ',', got 'institution'
+[03:30:54.007] Browser ERROR   ./app/about/page.tsx:56:5
+Parsing ecmascript source code failed
+  54 |     year: "2016-2018",
+  55 |     degree: "Basic Education certificate(BECE)"
+> 56 |     institution: "Wise virgin college, Kabba, Nigeria."
+     |     ^^^^^^^^^^^
+  57 |     description: "After leaving CIC, I continued my high school journey at WVC and I obtained my BECE in JSS3 an"
+  58 |   }
+  59 | ]
+
+Expected ',', got 'institution'
+[03:31:02.761] Browser ERROR   ./app/about/page.tsx:56:5
+Parsing ecmascript source code failed
+  54 |     year: "2016-2018",
+  55 |     degree: "Basic Education certificate(BECE)"
+> 56 |     institution: "Wise virgin college, Kabba, Nigeria."
+     |     ^^^^^^^^^^^
+  57 |     description: "After leaving CIC, I continued my high school journey at WVC and I obtained my BECE in JSS3 and moved to "
+  58 |   }
+  59 | ]
+
+Expected ',', got 'institution'
+[03:31:07.360] Browser ERROR   ./app/about/page.tsx:56:5
+Parsing ecmascript source code failed
+  54 |     year: "2016-2018",
+  55 |     degree: "Basic Education certificate(BECE)"
+> 56 |     institution: "Wise virgin college, Kabba, Nigeria."
+     |     ^^^^^^^^^^^
+  57 |     description: "After leaving CIC, I continued my high school journey at WVC and I obtained my BECE in JSS3 and moved to the senoir"
+  58 |   }
+  59 | ]
+
+Expected ',', got 'institution'
+[03:31:18.124] Browser ERROR   ./app/about/page.tsx:56:5
+Parsing ecmascript source code failed
+  54 |     year: "2016-2018",
+  55 |     degree: "Basic Education certificate(BECE)"
+> 56 |     institution: "Wise virgin college, Kabba, Nigeria."
+     |     ^^^^^^^^^^^
+  57 |     description: "After leaving CIC, I continued my high school journey at WVC and I obtained my BECE in JSS3 and moved to the senior class 1 before "
+  58 |   }
+  59 | ]
+
+Expected ',', got 'institution'
+[03:31:26.149] Browser ERROR   ./app/about/page.tsx:56:5
+Parsing ecmascript source code failed
+  54 |     year: "2016-2018",
+  55 |     degree: "Basic Education certificate(BECE)"
+> 56 |     institution: "Wise virgin college, Kabba, Nigeria."
+     |     ^^^^^^^^^^^
+  57 |     description: "After leaving CIC, I continued my high school journey at WVC and I obtained my BECE in JSS3 and moved to the senior class 1 before leaving the school."
+  58 |   }
+  59 | ]
+
+Expected ',', got 'institution'
+[03:31:33.634] Browser ERROR   ./app/about/page.tsx:56:5
+Parsing ecmascript source code failed
+  54 |     year: "2016-2018",
+  55 |     degree: "Basic Education certificate(BECE)"
+> 56 |     institution: "Wise virgin college, Kabba, Nigeria."
+     |     ^^^^^^^^^^^
+  57 |     description: "After leaving CIC, I continued my high school journey at WVC and I obtained my BECE in JSS3 and moved to the senior class 1 before leaving the school."
+  58 |   }
+  59 |
+
+Expected ',', got 'institution'
+[03:31:35.593] Browser ERROR   ./app/about/page.tsx:56:5
+Parsing ecmascript source code failed
+  54 |     year: "2016-2018",
+  55 |     degree: "Basic Education certificate(BECE)"
+> 56 |     institution: "Wise virgin college, Kabba, Nigeria."
+     |     ^^^^^^^^^^^
+  57 |     description: "After leaving CIC, I continued my high school journey at WVC and I obtained my BECE in JSS3 and moved to the senior class 1 before leaving the school."
+  58 |   },
+  59 |   
+
+Expected ',', got 'institution'
+[03:31:47.432] Browser ERROR   ./app/about/page.tsx:56:5
+Parsing ecmascript source code failed
+  54 |     year: "2016-2018",
+  55 |     degree: "Basic Education certificate(BECE)"
+> 56 |     institution: "Wise virgin college, Kabba, Nigeria."
+     |     ^^^^^^^^^^^
+  57 |     description: "After leaving CIC, I continued my high school journey at WVC and I obtained my BECE in JSS3 and moved to the senior class 1 before leaving the school."
+  58 |   },
+  59 |   {
+
+Expected ',', got 'institution'
+[03:31:54.763] Browser ERROR   ./app/about/page.tsx:56:5
+Parsing ecmascript source code failed
+  54 |     year: "2016-2018",
+  55 |     degree: "Basic Education certificate(BECE)"
+> 56 |     institution: "Wise virgin college, Kabba, Nigeria."
+     |     ^^^^^^^^^^^
+  57 |     description: "After leaving CIC, I continued my high school journey at WVC and I obtained my BECE in JSS3 and moved to the senior class 1 before leaving the school."
+  58 |   },
+  59 |   {
+
+Expected ',', got 'institution'
+[03:31:57.564] Browser ERROR   ./app/about/page.tsx:56:5
+Parsing ecmascript source code failed
+  54 |     year: "2016-2018",
+  55 |     degree: "Basic Education certificate(BECE)"
+> 56 |     institution: "Wise virgin college, Kabba, Nigeria."
+     |     ^^^^^^^^^^^
+  57 |     description: "After leaving CIC, I continued my high school journey at WVC and I obtained my BECE in JSS3 and moved to the senior class 1 before leaving the school."
+  58 |   },
+  59 |   {
+
+Expected ',', got 'institution'
+[03:32:03.010] Browser ERROR   ./app/about/page.tsx:56:5
+Parsing ecmascript source code failed
+  54 |     year: "2016-2018",
+  55 |     degree: "Basic Education certificate(BECE)"
+> 56 |     institution: "Wise virgin college, Kabba, Nigeria."
+     |     ^^^^^^^^^^^
+  57 |     description: "After leaving CIC, I continued my high school journey at WVC and I obtained my BECE in JSS3 and moved to the senior class 1 before leaving the school."
+  58 |   },
+  59 |   {
+
+Expected ',', got 'institution'
+[03:32:09.588] Browser ERROR   ./app/about/page.tsx:56:5
+Parsing ecmascript source code failed
+  54 |     year: "2016-2018",
+  55 |     degree: "Basic Education certificate(BECE)"
+> 56 |     institution: "Wise virgin college, Kabba, Nigeria."
+     |     ^^^^^^^^^^^
+  57 |     description: "After leaving CIC, I continued my high school journey at WVC and I obtained my BECE in JSS3 and moved to the senior class 1 before leaving the school."
+  58 |   },
+  59 |   {
+
+Expected ',', got 'institution'
+[03:32:22.041] Browser ERROR   ./app/about/page.tsx:56:5
+Parsing ecmascript source code failed
+  54 |     year: "2016-2018",
+  55 |     degree: "Basic Education certificate(BECE)"
+> 56 |     institution: "Wise virgin college, Kabba, Nigeria."
+     |     ^^^^^^^^^^^
+  57 |     description: "After leaving CIC, I continued my high school journey at WVC and I obtained my BECE in JSS3 and moved to the senior class 1 before leaving the school."
+  58 |   },
+  59 |   {
+
+Expected ',', got 'institution'
+[03:32:27.590] Browser ERROR   ./app/about/page.tsx:56:5
+Parsing ecmascript source code failed
+  54 |     year: "2016-2018",
+  55 |     degree: "Basic Education certificate(BECE)"
+> 56 |     institution: "Wise virgin college, Kabba, Nigeria."
+     |     ^^^^^^^^^^^
+  57 |     description: "After leaving CIC, I continued my high school journey at WVC and I obtained my BECE in JSS3 and moved to the senior class 1 before leaving the school."
+  58 |   },
+  59 |   {
+
+Expected ',', got 'institution'
+[03:32:35.420] Browser ERROR   ./app/about/page.tsx:56:5
+Parsing ecmascript source code failed
+  54 |     year: "2016-2018",
+  55 |     degree: "Basic Education certificate(BECE)"
+> 56 |     institution: "Wise virgin college, Kabba, Nigeria."
+     |     ^^^^^^^^^^^
+  57 |     description: "After leaving CIC, I continued my high school journey at WVC and I obtained my BECE in JSS3 and moved to the senior class 1 before leaving the school."
+  58 |   },
+  59 |   {
+
+Expected ',', got 'institution'
+[03:32:40.134] Browser ERROR   ./app/about/page.tsx:56:5
+Parsing ecmascript source code failed
+  54 |     year: "2016-2018",
+  55 |     degree: "Basic Education certificate(BECE)"
+> 56 |     institution: "Wise virgin college, Kabba, Nigeria."
+     |     ^^^^^^^^^^^
+  57 |     description: "After leaving CIC, I continued my high school journey at WVC and I obtained my BECE in JSS3 and moved to the senior class 1 before leaving the school."
+  58 |   },
+  59 |   {
+
+Expected ',', got 'institution'
+[03:32:45.778] Browser ERROR   ./app/about/page.tsx:56:5
+Parsing ecmascript source code failed
+  54 |     year: "2016-2018",
+  55 |     degree: "Basic Education certificate(BECE)"
+> 56 |     institution: "Wise virgin college, Kabba, Nigeria."
+     |     ^^^^^^^^^^^
+  57 |     description: "After leaving CIC, I continued my high school journey at WVC and I obtained my BECE in JSS3 and moved to the senior class 1 before leaving the school."
+  58 |   },
+  59 |   {
+
+Expected ',', got 'institution'
+[03:32:54.897] Browser ERROR   ./app/about/page.tsx:56:5
+Parsing ecmascript source code failed
+  54 |     year: "2016-2018",
+  55 |     degree: "Basic Education certificate(BECE)"
+> 56 |     institution: "Wise virgin college, Kabba, Nigeria."
+     |     ^^^^^^^^^^^
+  57 |     description: "After leaving CIC, I continued my high school journey at WVC and I obtained my BECE in JSS3 and moved to the senior class 1 before leaving the school."
+  58 |   },
+  59 |   {
+
+Expected ',', got 'institution'
+[03:33:59.949] Browser ERROR   ./app/about/page.tsx:56:5
+Parsing ecmascript source code failed
+  54 |     year: "2016-2018",
+  55 |     degree: "Basic Education certificate(BECE)"
+> 56 |     institution: "Wise virgin college, Kabba, Nigeria."
+     |     ^^^^^^^^^^^
+  57 |     description: "After leaving CIC, I continued my high school journey at WVC and I obtained my BECE in JSS3 and moved to the senior class 1 before leaving the school."
+  58 |   },
+  59 |   {
+
+Expected ',', got 'institution'
+[03:34:03.306] Browser ERROR   ./app/about/page.tsx:56:5
+Parsing ecmascript source code failed
+  54 |     year: "2016-2018",
+  55 |     degree: "Basic Education certificate(BECE)"
+> 56 |     institution: "Wise virgin college, Kabba, Nigeria."
+     |     ^^^^^^^^^^^
+  57 |     description: "After leaving CIC, I continued my high school journey at WVC and I obtained my BECE in JSS3 and moved to the senior class 1 before leaving the school."
+  58 |   },
+  59 |   {
+
+Expected ',', got 'institution'
+[03:36:02.855] Browser ERROR   ./app/about/page.tsx:56:5
+Parsing ecmascript source code failed
+  54 |     year: "2016-2018",
+  55 |     degree: "Basic Education certificate(BECE)"
+> 56 |     institution: "Wise virgin college, Kabba, Nigeria."
+     |     ^^^^^^^^^^^
+  57 |     description: "After leaving CIC, I continued my high school journey at WVC and I obtained my BECE in JSS3 and moved to the senior class 1 before leaving the school."
+  58 |   },
+  59 |   {
+
+Expected ',', got 'institution'
+[03:36:11.439] Browser ERROR   ./app/about/page.tsx:56:5
+Parsing ecmascript source code failed
+  54 |     year: "2016-2018",
+  55 |     degree: "Basic Education certificate(BECE)"
+> 56 |     institution: "Wise virgin college, Kabba, Nigeria."
+     |     ^^^^^^^^^^^
+  57 |     description: "After leaving CIC, I continued my high school journey at WVC and I obtained my BECE in JSS3 and moved to the senior class 1 before leaving the school."
+  58 |   },
+  59 |   {
+
+Expected ',', got 'institution'
+[03:36:12.977] Browser ERROR   ./app/about/page.tsx:56:5
+Parsing ecmascript source code failed
+  54 |     year: "2016-2018",
+  55 |     degree: "Basic Education certificate(BECE)"
+> 56 |     institution: "Wise virgin college, Kabba, Nigeria."
+     |     ^^^^^^^^^^^
+  57 |     description: "After leaving CIC, I continued my high school journey at WVC and I obtained my BECE in JSS3 and moved to the senior class 1 before leaving the school."
+  58 |   },
+  59 |   {
+
+Expected ',', got 'institution'
+[03:36:43.024] Server  LOG      ✓ Compiled in 19.4s
+[03:37:02.008] Server  LOG      ✓ Compiled in 919ms
+[03:37:07.824] Server  LOG      ✓ Compiled in 1107ms
+[03:37:49.009] Server  ERROR    ⨯ ./app/about/page.tsx:63:5
+Parsing ecmascript source code failed
+  61 |     degree: "West African Senior School certificate(WASSCE) and National Examination Council(NECO)",
+  62 |     institution: "Christ Anglican Secondary School("
+> 63 |     description: "Continued SS2 at CASS"
+     |     ^^^^^^^^^^^
+  64 |   }
+  65 | ]
+  66 |
+
+Expected ',', got 'description'
+
+
+[03:37:51.715] Browser ERROR   ./app/about/page.tsx:63:5
+Parsing ecmascript source code failed
+  61 |     degree: "West African Senior School certificate(WASSCE) and National Examination Council(NECO)",
+  62 |     institution: "Christ Anglican Secondary School("
+> 63 |     description: "Continued SS2 at CASS"
+     |     ^^^^^^^^^^^
+  64 |   }
+  65 | ]
+  66 |
+
+Expected ',', got 'description'
+[03:37:53.423] Server  LOG      ○ Compiling /_error ...
+[03:42:21.557] Server  LOG      ✓ Compiled in 270s
+[03:47:02.078] Server  LOG      ✓ Compiled in 190ms
+[03:47:10.074] Server  LOG      ✓ Compiled in 473ms
+[03:51:27.933] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:51:27.934] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/about" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head headCacheNode={{lazyData:null, ...}}>
+                    <__next_viewport_boundary__>
+                    <Next.Metadata>
+                      <div
+                        hidden={true}
+-                       bis_skin_checked="1"
+                      >
+                    ...
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" suppressHydrationWarning={true}>
+                          <body
+                            className="space_grotesk_a4177b3f-module__DCxVEW__variable jetbrains_mono_d5591ac2-module_..."
+-                           __processed_87d20e03-fda5-40aa-8c39-e3a3021afb7d__="true"
+-                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
+                          >
+                            ...
+                              <Navigation>
+                                <nav className="fixed top-...">
+                                  <div
+                                    className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between"
+-                                   bis_skin_checked="1"
+                                  >
+                                    <LinkComponent>
+                                    <div
+                                      className="hidden md:flex items-center gap-1"
+-                                     bis_skin_checked="1"
+                                    >
+                                    <div
+                                      className="flex items-center gap-2"
+-                                     bis_skin_checked="1"
+                                    >
+                              ...
+                                <SegmentViewNode type="page" pagePath="about/page...">
+                                  <SegmentTrieNode>
+                                  <AboutPage>
+                                    <section className="py-20 px-6">
+                                      <div
+                                        className="max-w-6xl mx-auto"
+-                                       bis_skin_checked="1"
+                                      >
+                                        <div
+                                          className="mb-12"
+-                                         bis_skin_checked="1"
+                                        >
+                                        <div
+                                          className="grid lg:grid-cols-[1fr_300px] gap-12"
+-                                         bis_skin_checked="1"
+                                        >
+                                          <div
+                                            className="space-y-6"
+-                                           bis_skin_checked="1"
+                                          >
+                                          <div
+                                            className="relative group"
+-                                           bis_skin_checked="1"
+                                          >
+                                            <div
+                                              className="relative"
+-                                             bis_skin_checked="1"
+                                            >
+                                              <img>
+                                              <div
+                                                className="absolute inset-0 border-2 border-primary rounded-lg transla..."
+-                                               bis_skin_checked="1"
+                                              >
+                                        <div
+                                          className="mt-24"
+-                                         bis_skin_checked="1"
+                                        >
+                                          <div
+                                            className="mb-12"
+-                                           bis_skin_checked="1"
+                                          >
+                                          <div
+                                            className="relative"
+-                                           bis_skin_checked="1"
+                                          >
+                                            <div
+                                              className="absolute left-0 md:left-1/2 top-0 bottom-0 w-px bg-primary/30..."
+-                                             bis_skin_checked="1"
+                                            >
+                                            <div
+                                              className="space-y-12"
+-                                             bis_skin_checked="1"
+                                            >
+                                              <div
+                                                className="relative flex flex-col md:flex-row gap-8 md:flex-row-reverse"
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+                                                  className="absolute left-0 md:left-1/2 w-4 h-4 bg-primary rounded-fu..."
+-                                                 bis_skin_checked="1"
+                                                >
+                                                <div
+                                                  className="ml-8 md:ml-0 md:w-1/2 md:pr-12"
+-                                                 bis_skin_checked="1"
+                                                >
+                                                  <div
+                                                    className="p-6 rounded-lg border border-border bg-card hover:borde..."
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                <div
+                                                  className="hidden md:block md:w-1/2"
+-                                                 bis_skin_checked="1"
+                                                >
+                                              <div
+                                                className={"relative flex flex-col md:flex-row gap-8 "}
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+                                                  className="absolute left-0 md:left-1/2 w-4 h-4 bg-primary rounded-fu..."
+-                                                 bis_skin_checked="1"
+                                                >
+                                                <div
+                                                  className="ml-8 md:ml-0 md:w-1/2 md:pl-12"
+-                                                 bis_skin_checked="1"
+                                                >
+                                                  <div
+                                                    className="p-6 rounded-lg border border-border bg-card hover:borde..."
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                <div
+                                                  className="hidden md:block md:w-1/2"
+-                                                 bis_skin_checked="1"
+                                                >
+                                              <div
+                                                className="relative flex flex-col md:flex-row gap-8 md:flex-row-reverse"
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+                                                  className="absolute left-0 md:left-1/2 w-4 h-4 bg-primary rounded-fu..."
+-                                                 bis_skin_checked="1"
+                                                >
+                                                <div
+                                                  className="ml-8 md:ml-0 md:w-1/2 md:pr-12"
+-                                                 bis_skin_checked="1"
+                                                >
+                                                  <div
+                                                    className="p-6 rounded-lg border border-border bg-card hover:borde..."
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                <div
+                                                  className="hidden md:block md:w-1/2"
+-                                                 bis_skin_checked="1"
+                                                >
+                                              <div
+                                                className={"relative flex flex-col md:flex-row gap-8 "}
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+                                                  className="absolute left-0 md:left-1/2 w-4 h-4 bg-primary rounded-fu..."
+-                                                 bis_skin_checked="1"
+                                                >
+                                                <div
+                                                  className="ml-8 md:ml-0 md:w-1/2 md:pl-12"
+-                                                 bis_skin_checked="1"
+                                                >
+                                                  <div
+                                                    className="p-6 rounded-lg border border-border bg-card hover:borde..."
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                <div
+                                                  className="hidden md:block md:w-1/2"
+-                                                 bis_skin_checked="1"
+                                                >
+                                        <div
+                                          className="mt-24"
+-                                         bis_skin_checked="1"
+                                        >
+                                          <div
+                                            className="mb-12"
+-                                           bis_skin_checked="1"
+                                          >
+                                          <div
+                                            className="relative"
+-                                           bis_skin_checked="1"
+                                          >
+                                            <div
+                                              className="absolute left-0 md:left-1/2 top-0 bottom-0 w-px bg-primary/30..."
+-                                             bis_skin_checked="1"
+                                            >
+                                            <div
+                                              className="space-y-12"
+-                                             bis_skin_checked="1"
+                                            >
+                                              <div
+                                                className="relative flex flex-col md:flex-row gap-8 md:flex-row-reverse"
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+                                                  className="absolute left-0 md:left-1/2 w-4 h-4 bg-primary rounded-fu..."
+-                                                 bis_skin_checked="1"
+                                                >
+                                                <div
+                                                  className="ml-8 md:ml-0 md:w-1/2 md:pr-12"
+-                                                 bis_skin_checked="1"
+                                                >
+                                                  <div
+                                                    className="p-6 rounded-lg border border-border bg-card hover:borde..."
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                <div
+                                                  className="hidden md:block md:w-1/2"
+-                                                 bis_skin_checked="1"
+                                                >
+                                              <div
+                                                className={"relative flex flex-col md:flex-row gap-8 "}
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+                                                  className="absolute left-0 md:left-1/2 w-4 h-4 bg-primary rounded-fu..."
+-                                                 bis_skin_checked="1"
+                                                >
+                                                <div
+                                                  className="ml-8 md:ml-0 md:w-1/2 md:pl-12"
+-                                                 bis_skin_checked="1"
+                                                >
+                                                  <div
+                                                    className="p-6 rounded-lg border border-border bg-card hover:borde..."
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                <div
+                                                  className="hidden md:block md:w-1/2"
+-                                                 bis_skin_checked="1"
+                                                >
+                                              <div
+                                                className="relative flex flex-col md:flex-row gap-8 md:flex-row-reverse"
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+                                                  className="absolute left-0 md:left-1/2 w-4 h-4 bg-primary rounded-fu..."
+-                                                 bis_skin_checked="1"
+                                                >
+                                                <div
+                                                  className="ml-8 md:ml-0 md:w-1/2 md:pr-12"
+-                                                 bis_skin_checked="1"
+                                                >
+                                                  <div
+                                                    className="p-6 rounded-lg border border-border bg-card hover:borde..."
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                <div
+                                                  className="hidden md:block md:w-1/2"
+-                                                 bis_skin_checked="1"
+                                                >
+                                              <div
+                                                className={"relative flex flex-col md:flex-row gap-8 "}
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+                                                  className="absolute left-0 md:left-1/2 w-4 h-4 bg-primary rounded-fu..."
+-                                                 bis_skin_checked="1"
+                                                >
+                                                <div
+                                                  className="ml-8 md:ml-0 md:w-1/2 md:pl-12"
+-                                                 bis_skin_checked="1"
+                                                >
+                                                  <div
+                                                    className="p-6 rounded-lg border border-border bg-card hover:borde..."
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                <div
+                                                  className="hidden md:block md:w-1/2"
+-                                                 bis_skin_checked="1"
+                                                >
+                                ...
+                            ...
+                  ...
+
+[03:51:48.252] Browser LOG     [Vercel Web Analytics] Failed to load script from https://va.vercel-scripts.com/v1/script.debug.js. Please check if any ad blockers are enabled and try again.
+[04:08:59.060] Server  LOG      ○ Compiling /about ...
+[04:09:01.609] Server  LOG      ✓ Compiled in 95.8s
+[04:11:32.753] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:11:32.754] Browser ERROR   unhandledRejection: i: Failed to connect to MetaMask
+[04:11:36.744] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/about" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head headCacheNode={{lazyData:null, ...}}>
+                    <__next_viewport_boundary__>
+                    <Next.Metadata>
+                      <div
+                        hidden={true}
+-                       bis_skin_checked="1"
+                      >
+                    ...
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" suppressHydrationWarning={true}>
+                          <body
+                            className="space_grotesk_a4177b3f-module__DCxVEW__variable jetbrains_mono_d5591ac2-module_..."
+-                           __processed_d0938577-2b4f-41d5-a65c-56efe96fe972__="true"
+-                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
+                          >
+                            ...
+                              <Navigation>
+                                <nav className="fixed top-...">
+                                  <div
+                                    className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between"
+-                                   bis_skin_checked="1"
+                                  >
+                                    <LinkComponent>
+                                    <div
+                                      className="hidden md:flex items-center gap-1"
+-                                     bis_skin_checked="1"
+                                    >
+                                    <div
+                                      className="flex items-center gap-2"
+-                                     bis_skin_checked="1"
+                                    >
+                              ...
+                                <SegmentViewNode type="page" pagePath="about/page...">
+                                  <SegmentTrieNode>
+                                  <AboutPage>
+                                    <section className="py-20 px-6">
+                                      <div
+                                        className="max-w-6xl mx-auto"
+-                                       bis_skin_checked="1"
+                                      >
+                                        <div
+                                          className="mb-12"
+-                                         bis_skin_checked="1"
+                                        >
+                                        <div
+                                          className="grid lg:grid-cols-[1fr_300px] gap-12"
+-                                         bis_skin_checked="1"
+                                        >
+                                          <div
+                                            className="space-y-6"
+-                                           bis_skin_checked="1"
+                                          >
+                                          <div
+                                            className="relative group"
+-                                           bis_skin_checked="1"
+                                          >
+                                            <div
+                                              className="relative"
+-                                             bis_skin_checked="1"
+                                            >
+                                              <img>
+                                              <div
+                                                className="absolute inset-0 border-2 border-primary rounded-lg transla..."
+-                                               bis_skin_checked="1"
+                                              >
+                                        <div
+                                          className="mt-24"
+-                                         bis_skin_checked="1"
+                                        >
+                                          <div
+                                            className="mb-12"
+-                                           bis_skin_checked="1"
+                                          >
+                                          <div
+                                            className="relative"
+-                                           bis_skin_checked="1"
+                                          >
+                                            <div
+                                              className="absolute left-0 md:left-1/2 top-0 bottom-0 w-px bg-primary/30..."
+-                                             bis_skin_checked="1"
+                                            >
+                                            <div
+                                              className="space-y-12"
+-                                             bis_skin_checked="1"
+                                            >
+                                              <div
+                                                className="relative flex flex-col md:flex-row gap-8 md:flex-row-reverse"
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+                                                  className="absolute left-0 md:left-1/2 w-4 h-4 bg-primary rounded-fu..."
+-                                                 bis_skin_checked="1"
+                                                >
+                                                <div
+                                                  className="ml-8 md:ml-0 md:w-1/2 md:pr-12"
+-                                                 bis_skin_checked="1"
+                                                >
+                                                  <div
+                                                    className="p-6 rounded-lg border border-border bg-card hover:borde..."
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                <div
+                                                  className="hidden md:block md:w-1/2"
+-                                                 bis_skin_checked="1"
+                                                >
+                                              <div
+                                                className={"relative flex flex-col md:flex-row gap-8 "}
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+                                                  className="absolute left-0 md:left-1/2 w-4 h-4 bg-primary rounded-fu..."
+-                                                 bis_skin_checked="1"
+                                                >
+                                                <div
+                                                  className="ml-8 md:ml-0 md:w-1/2 md:pl-12"
+-                                                 bis_skin_checked="1"
+                                                >
+                                                  <div
+                                                    className="p-6 rounded-lg border border-border bg-card hover:borde..."
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                <div
+                                                  className="hidden md:block md:w-1/2"
+-                                                 bis_skin_checked="1"
+                                                >
+                                              <div
+                                                className="relative flex flex-col md:flex-row gap-8 md:flex-row-reverse"
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+                                                  className="absolute left-0 md:left-1/2 w-4 h-4 bg-primary rounded-fu..."
+-                                                 bis_skin_checked="1"
+                                                >
+                                                <div
+                                                  className="ml-8 md:ml-0 md:w-1/2 md:pr-12"
+-                                                 bis_skin_checked="1"
+                                                >
+                                                  <div
+                                                    className="p-6 rounded-lg border border-border bg-card hover:borde..."
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                <div
+                                                  className="hidden md:block md:w-1/2"
+-                                                 bis_skin_checked="1"
+                                                >
+                                              <div
+                                                className={"relative flex flex-col md:flex-row gap-8 "}
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+                                                  className="absolute left-0 md:left-1/2 w-4 h-4 bg-primary rounded-fu..."
+-                                                 bis_skin_checked="1"
+                                                >
+                                                <div
+                                                  className="ml-8 md:ml-0 md:w-1/2 md:pl-12"
+-                                                 bis_skin_checked="1"
+                                                >
+                                                  <div
+                                                    className="p-6 rounded-lg border border-border bg-card hover:borde..."
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                <div
+                                                  className="hidden md:block md:w-1/2"
+-                                                 bis_skin_checked="1"
+                                                >
+                                        <div
+                                          className="mt-24"
+-                                         bis_skin_checked="1"
+                                        >
+                                          <div
+                                            className="mb-12"
+-                                           bis_skin_checked="1"
+                                          >
+                                          <div
+                                            className="relative"
+-                                           bis_skin_checked="1"
+                                          >
+                                            <div
+                                              className="absolute left-0 md:left-1/2 top-0 bottom-0 w-px bg-primary/30..."
+-                                             bis_skin_checked="1"
+                                            >
+                                            <div
+                                              className="space-y-12"
+-                                             bis_skin_checked="1"
+                                            >
+                                              <div
+                                                className="relative flex flex-col md:flex-row gap-8 md:flex-row-reverse"
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+                                                  className="absolute left-0 md:left-1/2 w-4 h-4 bg-primary rounded-fu..."
+-                                                 bis_skin_checked="1"
+                                                >
+                                                <div
+                                                  className="ml-8 md:ml-0 md:w-1/2 md:pr-12"
+-                                                 bis_skin_checked="1"
+                                                >
+                                                  <div
+                                                    className="p-6 rounded-lg border border-border bg-card hover:borde..."
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                <div
+                                                  className="hidden md:block md:w-1/2"
+-                                                 bis_skin_checked="1"
+                                                >
+                                              <div
+                                                className={"relative flex flex-col md:flex-row gap-8 "}
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+                                                  className="absolute left-0 md:left-1/2 w-4 h-4 bg-primary rounded-fu..."
+-                                                 bis_skin_checked="1"
+                                                >
+                                                <div
+                                                  className="ml-8 md:ml-0 md:w-1/2 md:pl-12"
+-                                                 bis_skin_checked="1"
+                                                >
+                                                  <div
+                                                    className="p-6 rounded-lg border border-border bg-card hover:borde..."
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                <div
+                                                  className="hidden md:block md:w-1/2"
+-                                                 bis_skin_checked="1"
+                                                >
+                                              <div
+                                                className="relative flex flex-col md:flex-row gap-8 md:flex-row-reverse"
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+                                                  className="absolute left-0 md:left-1/2 w-4 h-4 bg-primary rounded-fu..."
+-                                                 bis_skin_checked="1"
+                                                >
+                                                <div
+                                                  className="ml-8 md:ml-0 md:w-1/2 md:pr-12"
+-                                                 bis_skin_checked="1"
+                                                >
+                                                  <div
+                                                    className="p-6 rounded-lg border border-border bg-card hover:borde..."
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                <div
+                                                  className="hidden md:block md:w-1/2"
+-                                                 bis_skin_checked="1"
+                                                >
+                                              <div
+                                                className={"relative flex flex-col md:flex-row gap-8 "}
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+                                                  className="absolute left-0 md:left-1/2 w-4 h-4 bg-primary rounded-fu..."
+-                                                 bis_skin_checked="1"
+                                                >
+                                                <div
+                                                  className="ml-8 md:ml-0 md:w-1/2 md:pl-12"
+-                                                 bis_skin_checked="1"
+                                                >
+                                                  <div
+                                                    className="p-6 rounded-lg border border-border bg-card hover:borde..."
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                <div
+                                                  className="hidden md:block md:w-1/2"
+-                                                 bis_skin_checked="1"
+                                                >
+                                ...
+                            ...
+                  ...
+
+[04:11:41.088] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[04:11:41.088] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/about","route":"/about"}
+[04:11:41.088] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/about color: rgb(120, 120, 120) color: inherit {"dp":"/about","o":"http://localhost:3000/about","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765627542720}
+[04:12:39.826] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:12:40.333] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[04:12:40.333] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[04:12:40.333] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.1.159:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://192.168.1.159:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765627600750}
+[04:12:45.146] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.1.159:3000/about color: rgb(120, 120, 120) color: inherit {"dp":"/about","o":"http://192.168.1.159:3000/about","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765627605864}
+[04:24:22.250] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:24:22.536] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[04:24:22.536] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/about","route":"/about"}
+[04:24:22.536] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.1.159:3000/about color: rgb(120, 120, 120) color: inherit {"dp":"/about","o":"http://192.168.1.159:3000/about","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765628303285}
+[04:24:42.214] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.1.159:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://192.168.1.159:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765628322947}
+[04:25:39.509] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765628380915}
+[06:47:26.568] Server  LOG      ✓ Compiled in 26s
+[06:47:33.690] Server  LOG      ✓ Compiled in 3.9s
+[06:48:11.332] Server  LOG      ✓ Compiled in 4.1s
+[06:48:24.558] Server  LOG      ✓ Compiled in 10s
+[06:48:33.187] Server  LOG      ✓ Compiled in 0ms
+[06:48:39.598] Server  LOG      ✓ Compiled in 2.4s
+[06:48:50.890] Server  LOG      ✓ Compiled in 2.8s
+[06:48:55.465] Server  LOG      ✓ Compiled in 560ms
+[06:49:00.238] Server  LOG      ✓ Compiled in 890ms
+[06:49:03.960] Server  LOG      ✓ Compiled in 0ms
+[06:49:06.757] Server  LOG      ✓ Compiled in 528ms
+[06:49:12.216] Server  LOG      ✓ Compiled in 1719ms
+[06:49:14.617] Server  LOG      ✓ Compiled in 315ms
+[06:49:26.250] Server  LOG      ✓ Compiled in 0ms
+[06:49:43.601] Server  LOG      ✓ Compiled in 3.7s
+[06:49:51.523] Server  LOG      ✓ Compiled in 3.7s
+[06:49:52.534] Server  LOG      ✓ Compiled in 427ms
+[06:49:55.820] Server  LOG      ✓ Compiled in 284ms
+[06:49:59.131] Server  LOG      ✓ Compiled in 400ms
+[06:50:01.216] Server  LOG      ✓ Compiled in 323ms
+[06:50:14.513] Server  LOG      ✓ Compiled in 8s
+[06:50:39.685] Server  LOG      ✓ Compiled in 230ms
+[06:50:44.007] Server  LOG      ✓ Compiled in 436ms
+[06:50:57.101] Server  LOG      ✓ Compiled in 235ms
+[06:51:01.087] Server  LOG      ✓ Compiled in 147ms
+[06:51:20.830] Server  LOG      ✓ Compiled in 309ms
+[06:51:29.793] Server  LOG      ✓ Compiled in 210ms
+[06:51:35.415] Server  LOG      ✓ Compiled in 173ms
+[06:51:38.931] Server  LOG      ✓ Compiled in 326ms
+[06:51:47.317] Server  LOG      ✓ Compiled in 187ms
+[06:52:10.535] Server  LOG      ✓ Compiled in 401ms
+[06:52:17.576] Server  LOG      ✓ Compiled in 546ms
+[06:52:25.783] Server  LOG      ✓ Compiled in 392ms
+[06:53:02.077] Server  LOG      ✓ Compiled in 363ms
+[06:53:09.648] Server  LOG      ✓ Compiled in 320ms
+[06:53:11.655] Server  LOG      ✓ Compiled in 425ms
+[06:53:20.810] Server  LOG      ✓ Compiled in 241ms
+[06:53:32.174] Server  LOG      ✓ Compiled in 0ms
+[06:53:45.704] Server  LOG      ✓ Compiled in 0ms
+[06:54:04.577] Server  LOG      ✓ Compiled in 0ms
+[06:54:32.934] Server  LOG      ✓ Compiled in 6.8s
+[06:54:45.481] Server  LOG      ✓ Compiled in 2.7s
+[06:54:56.654] Server  LOG      ✓ Compiled in 0ms
+[06:55:01.087] Server  LOG      ✓ Compiled in 2s
+[06:55:08.477] Server  LOG      ✓ Compiled in 844ms
+[06:55:20.777] Server  LOG      ✓ Compiled in 0ms
+[06:55:43.070] Server  LOG      ✓ Compiled in 1886ms
+[06:55:52.100] Server  LOG      ✓ Compiled in 843ms
+[06:55:55.086] Server  LOG      ✓ Compiled in 608ms
+[06:56:10.601] Server  LOG      ✓ Compiled in 377ms
+[06:56:11.442] Server  LOG      ✓ Compiled in 0ms
+[06:56:15.226] Server  LOG      ✓ Compiled in 350ms
+[06:56:32.115] Server  LOG      ✓ Compiled in 0ms
+[06:56:36.951] Server  LOG      ✓ Compiled in 0ms
+[06:56:43.269] Server  LOG      ✓ Compiled in 0ms
+[06:56:44.613] Server  LOG      ✓ Compiled in 0ms
+[06:56:57.008] Server  LOG      ✓ Compiled in 0ms
+[06:57:22.407] Server  LOG      ✓ Compiled in 0ms
+[06:57:23.629] Server  LOG      ✓ Compiled in 456ms
+[06:57:30.006] Server  LOG      ✓ Compiled in 367ms
+[06:57:42.011] Server  LOG      ✓ Compiled in 1746ms
+[06:57:47.713] Server  LOG      ✓ Compiled in 776ms
+[06:57:53.972] Server  LOG      ✓ Compiled in 283ms
+[06:57:57.357] Server  LOG      ✓ Compiled in 377ms
+[06:58:06.114] Server  LOG      ✓ Compiled in 265ms
+[06:58:17.217] Server  LOG      ✓ Compiled in 860ms
+[06:58:25.049] Server  LOG      ✓ Compiled in 266ms
+[06:58:30.463] Server  LOG      ✓ Compiled in 504ms
+[06:58:45.314] Server  LOG      ✓ Compiled in 3.2s
+[06:58:47.486] Server  LOG      ✓ Compiled in 276ms
+[06:59:56.192] Server  LOG      ✓ Compiled in 4.8s
+[07:00:38.552] Server  LOG      ✓ Compiled in 2.6s
+[07:00:45.748] Server  LOG      ✓ Compiled in 677ms
+[07:01:00.798] Server  LOG      ✓ Compiled in 907ms
+[07:01:06.323] Server  LOG      ✓ Compiled in 755ms
+[07:01:11.023] Server  LOG      ✓ Compiled in 604ms
+[07:01:16.033] Server  LOG      ✓ Compiled in 1000ms
+[07:01:22.312] Server  LOG      ✓ Compiled in 956ms
+[07:09:57.371] Server  LOG      ✓ Compiled in 5.5s
+[07:10:05.877] Server  LOG      ✓ Compiled in 1443ms
+[07:11:10.918] Server  LOG      ○ Compiling /about ...
+[07:12:43.845] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/about color: rgb(120, 120, 120) color: inherit {"dp":"/about","o":"http://localhost:3000/about","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765638372770}
+[07:16:36.561] Server  LOG      ✓ Compiled in 4.7s
+[07:17:56.586] Server  LOG      ✓ Compiled in 1574ms
+[07:18:15.055] Server  LOG      ✓ Compiled in 2.8s
+[07:18:22.261] Server  LOG      ✓ Compiled in 1466ms
+[07:18:29.228] Server  LOG      ✓ Compiled in 2s
+[07:27:23.895] Server  LOG      ✓ Compiled in 22.7s
+[07:27:42.359] Server  LOG      ✓ Compiled in 2.5s
+[07:27:59.513] Server  LOG      ✓ Compiled in 2.7s
+[07:28:09.834] Server  LOG      ✓ Compiled in 1234ms
+[07:28:20.252] Server  LOG      ✓ Compiled in 1279ms
+[07:28:24.851] Server  LOG      ✓ Compiled in 768ms
+[07:28:41.775] Server  LOG      ✓ Compiled in 4.5s
+[07:32:52.447] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/skills color: rgb(120, 120, 120) color: inherit {"dp":"/skills","o":"http://localhost:3000/skills","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765639517158}
+[07:33:17.457] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/about color: rgb(120, 120, 120) color: inherit {"dp":"/about","o":"http://localhost:3000/about","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765639617322}
+[07:34:28.364] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/skills color: rgb(120, 120, 120) color: inherit {"dp":"/skills","o":"http://localhost:3000/skills","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765639688848}
+[07:35:42.426] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/about color: rgb(120, 120, 120) color: inherit {"dp":"/about","o":"http://localhost:3000/about","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765639763073}
+[07:37:59.314] Server  LOG      ✓ Compiled in 25.6s
+[07:39:02.289] Server  LOG      ✓ Compiled in 58.4s
+[07:39:08.227] Server  LOG      ○ Compiling /contact ...
+[09:23:38.228] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[09:23:57.159] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/contact" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head headCacheNode={{lazyData:null, ...}}>
+                    <__next_viewport_boundary__>
+                    <Next.Metadata>
+                      <div
+                        hidden={true}
+-                       bis_skin_checked="1"
+                      >
+                    ...
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" suppressHydrationWarning={true}>
+                          <body
+                            className="space_grotesk_a4177b3f-module__DCxVEW__variable jetbrains_mono_d5591ac2-module_..."
+-                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
+-                           __processed_9edbd370-8523-4eb1-aa4d-0c16bb817aaf__="true"
+                          >
+                            ...
+                              <Navigation>
+                                <nav className="fixed top-...">
+                                  <div
+                                    className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between"
+-                                   bis_skin_checked="1"
+                                  >
+                                    <LinkComponent>
+                                    <div
+                                      className="hidden md:flex items-center gap-1"
+-                                     bis_skin_checked="1"
+                                    >
+                                    <div
+                                      className="flex items-center gap-2"
+-                                     bis_skin_checked="1"
+                                    >
+                              ...
+                                <SegmentViewNode type="page" pagePath="contact/pa...">
+                                  <SegmentTrieNode>
+                                  <ContactPage>
+                                    <section className="py-20 px-6...">
+                                      <div
+                                        className="max-w-2xl mx-auto text-center"
+-                                       bis_skin_checked="1"
+                                      >
+                                        <p>
+                                        <h1>
+                                        <p>
+                                        <div
+                                          className="flex flex-col sm:flex-row justify-center gap-4 mb-12"
+-                                         bis_skin_checked="1"
+                                        >
+                                        <div
+                                          className="flex justify-center gap-6"
+-                                         bis_skin_checked="1"
+                                        >
+                                ...
+                            ...
+                  ...
+
+[09:24:06.506] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[09:24:06.695] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/contact","route":"/contact"}
+[09:24:06.695] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765646234964}
+[09:32:55.866] Server  LOG      ✓ Compiled in 196.9s
+[09:33:10.126] Server  LOG      ○ Compiling /contact ...
+[09:37:55.360] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[09:37:57.849] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[09:37:57.850] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/about","route":"/about"}
+[09:37:57.850] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.1.159:3000/about color: rgb(120, 120, 120) color: inherit {"dp":"/about","o":"http://192.168.1.159:3000/about","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765647074588}
+[09:41:18.619] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[09:41:19.774] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[09:41:19.775] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[09:41:19.775] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.1.159:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://192.168.1.159:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765647276056}
+[09:41:48.252] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.1.159:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://192.168.1.159:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765647305120}
+[09:45:44.181] Server  LOG      ✓ Compiled in 70.8s
+[09:50:37.490] Server  LOG      ✓ Compiled in 12.5s
+[09:50:40.871] Server  LOG      ✓ Compiled in 2.8s
+[09:54:44.791] Server  LOG      ✓ Compiled in 3s
+[09:55:25.017] Server  LOG      ✓ Compiled in 4.1s
+[09:55:56.887] Server  LOG      ✓ Compiled in 4.2s
+[09:58:19.506] Server  LOG      ✓ Compiled in 628ms
+[09:58:26.728] Server  LOG      ✓ Compiled in 1321ms
+[09:58:44.908] Server  LOG      ✓ Compiled in 1628ms
+[09:58:53.339] Server  LOG      ✓ Compiled in 5.3s
+[09:58:56.194] Server  LOG      ✓ Compiled in 937ms
+[09:59:26.835] Server  LOG      ✓ Compiled in 890ms
+[10:41:13.033] Server  LOG      ✓ Compiled in 49.8s
+[10:43:19.303] Server  LOG      ✓ Compiled in 358ms
+[10:43:23.178] Server  LOG      ✓ Compiled in 445ms
+[10:43:25.161] Server  LOG      ✓ Compiled in 849ms
+[10:43:44.537] Server  LOG      ✓ Compiled in 555ms
+[10:43:55.311] Server  LOG      ✓ Compiled in 482ms
+[10:44:33.261] Server  LOG      ✓ Compiled in 575ms
+[10:44:34.806] Server  LOG      ✓ Compiled in 468ms
+[10:44:38.269] Server  LOG      ✓ Compiled in 349ms
+[10:44:47.689] Server  LOG      ✓ Compiled in 387ms
+[10:44:54.288] Server  LOG      ✓ Compiled in 598ms
+[10:44:57.909] Server  LOG      ✓ Compiled in 541ms
+[10:45:49.291] Server  LOG      ✓ Compiled in 1189ms
+[10:45:50.611] Server  LOG      ✓ Compiled in 553ms
+[10:45:58.459] Server  LOG      ✓ Compiled in 746ms
+[10:46:48.989] Server  LOG      ✓ Compiled in 531ms
+[10:47:15.368] Server  LOG      ✓ Compiled in 902ms
+[10:52:51.333] Server  LOG      ✓ Compiled in 535ms
+[10:52:59.227] Server  LOG      ✓ Compiled in 513ms
+[10:53:01.285] Server  LOG      ✓ Compiled in 390ms
+[10:55:04.954] Server  LOG      ✓ Compiled in 405ms
+[10:55:22.956] Server  LOG      ✓ Compiled in 416ms
+[10:55:24.566] Server  LOG      ✓ Compiled in 299ms
+[10:56:50.295] Server  LOG      ✓ Compiled in 434ms
+[10:56:55.028] Server  LOG      ✓ Compiled in 683ms
+[10:56:57.644] Server  LOG      ✓ Compiled in 1414ms
+[10:57:06.315] Server  LOG      ✓ Compiled in 315ms
+[10:58:05.101] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[10:58:05.102] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/contact" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head headCacheNode={{lazyData:null, ...}}>
+                    <__next_viewport_boundary__>
+                    <Next.Metadata>
+                      <div
+                        hidden={true}
+-                       bis_skin_checked="1"
+                      >
+                    ...
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" suppressHydrationWarning={true}>
+                          <body
+                            className="space_grotesk_a4177b3f-module__DCxVEW__variable jetbrains_mono_d5591ac2-module_..."
+-                           __processed_b05e7a5f-a7db-43f7-aea0-17ef7d4b6c92__="true"
+-                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
+                          >
+                            ...
+                              <Navigation>
+                                <nav className="fixed top-...">
+                                  <div
+                                    className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between"
+-                                   bis_skin_checked="1"
+                                  >
+                                    <LinkComponent>
+                                    <div
+                                      className="hidden md:flex items-center gap-1"
+-                                     bis_skin_checked="1"
+                                    >
+                                    <div
+                                      className="flex items-center gap-2"
+-                                     bis_skin_checked="1"
+                                    >
+                              ...
+                                <SegmentViewNode type="page" pagePath="contact/pa...">
+                                  <SegmentTrieNode>
+                                  <ContactPage>
+                                    <section className="py-20 px-6...">
+                                      <div
+                                        className="max-w-2xl mx-auto text-center"
+-                                       bis_skin_checked="1"
+                                      >
+                                        <p>
+                                        <h1>
+                                        <p>
+                                        <div
+                                          className="flex flex-col sm:flex-row justify-center gap-4 mb-12"
+-                                         bis_skin_checked="1"
+                                        >
+                                        <div
+                                          className="flex justify-center gap-6"
+-                                         bis_skin_checked="1"
+                                        >
+                                ...
+                            ...
+                  ...
+
+[10:58:05.102] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[10:58:05.102] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/contact","route":"/contact"}
+[10:58:05.102] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765651875297}
+[10:58:05.387] Server  LOG      ○ Compiling /projects ...
+[10:58:54.353] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[10:58:55.445] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. Levic-bootcamp
+[10:58:55.504] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/projects" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" suppressHydrationWarning={true}>
+                          <body
+                            className="space_grotesk_a4177b3f-module__DCxVEW__variable jetbrains_mono_d5591ac2-module_..."
+-                           __processed_7e9159e6-d69d-47f8-b42d-4ec4d778af43__="true"
+-                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
+                          >
+                            ...
+                              <SegmentViewNode type="page" pagePath="projects/p...">
+                                <SegmentTrieNode>
+                                <ProjectsPage>
+                                  <section className="py-20 px-6">
+                                    <div className="max-w-6xl ...">
+                                      <div>
+                                      <div className="space-y-24...">
+                                        <div
+                                          className={"grid lg:grid-cols-[1fr_1.2fr] gap-8 items-center "}
+-                                         bis_skin_checked="1"
+                                        >
+                                          <div
+                                            className=""
+-                                           bis_skin_checked="1"
+                                          >
+                                            <p>
+                                            <h3>
+                                            <div
+                                              className="bg-card p-6 rounded-lg border border-border/40 mb-4"
+-                                             bis_skin_checked="1"
+                                            >
+                                            <div
+                                              className="flex flex-wrap gap-2 mb-4 font-mono text-sm text-muted-foregr..."
+-                                             bis_skin_checked="1"
+                                            >
+                                            <div
+                                              className="flex gap-3"
+-                                             bis_skin_checked="1"
+                                            >
+                                          <div
+                                            className={"relative group "}
+-                                           bis_skin_checked="1"
+                                          >
+                                            <a href="https://ww..." target="_blank" rel="noopener n...">
+                                              <div
+                                                className="relative overflow-hidden rounded-lg"
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+                                                  className="absolute inset-0 bg-primary/20 group-hover:bg-transparent..."
+-                                                 bis_skin_checked="1"
+                                                >
+                                                ...
+                                        <div
+                                          className="grid lg:grid-cols-[1fr_1.2fr] gap-8 items-center lg:grid-cols-[1...."
+-                                         bis_skin_checked="1"
+                                        >
+                                          <div
+                                            className="lg:order-2"
+-                                           bis_skin_checked="1"
+                                          >
+                                            <p>
+                                            <h3>
+                                            <div
+                                              className="bg-card p-6 rounded-lg border border-border/40 mb-4"
+-                                             bis_skin_checked="1"
+                                            >
+                                            <div
+                                              className="flex flex-wrap gap-2 mb-4 font-mono text-sm text-muted-foregr..."
+-                                             bis_skin_checked="1"
+                                            >
+                                            <div
+                                              className="flex gap-3"
+-                                             bis_skin_checked="1"
+                                            >
+                                          <div
+                                            className="relative group lg:order-1"
+-                                           bis_skin_checked="1"
+                                          >
+                                            <a href="https://le..." target="_blank" rel="noopener n...">
+                                              <div
+                                                className="relative overflow-hidden rounded-lg"
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+                                                  className="absolute inset-0 bg-primary/20 group-hover:bg-transparent..."
+-                                                 bis_skin_checked="1"
+                                                >
+                                                ...
+                                        <div
+                                          className={"grid lg:grid-cols-[1fr_1.2fr] gap-8 items-center "}
+-                                         bis_skin_checked="1"
+                                        >
+                                          <div
+                                            className=""
+-                                           bis_skin_checked="1"
+                                          >
+                                            <p>
+                                            <h3>
+                                            <div
+                                              className="bg-card p-6 rounded-lg border border-border/40 mb-4"
+-                                             bis_skin_checked="1"
+                                            >
+                                            <div
+                                              className="flex flex-wrap gap-2 mb-4 font-mono text-sm text-muted-foregr..."
+-                                             bis_skin_checked="1"
+                                            >
+                                            <div
+                                              className="flex gap-3"
+-                                             bis_skin_checked="1"
+                                            >
+                                          <div
+                                            className={"relative group "}
+-                                           bis_skin_checked="1"
+                                          >
+                                            <a href="https://le..." target="_blank" rel="noopener n...">
+                                              <div
+                                                className="relative overflow-hidden rounded-lg"
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+                                                  className="absolute inset-0 bg-primary/20 group-hover:bg-transparent..."
+-                                                 bis_skin_checked="1"
+                                                >
+                                                ...
+                                      <div
+-                                       bis_skin_checked="1"
+                                      >
+                                        <h2>
+                                        <div
+                                          className="grid md:grid-cols-2 lg:grid-cols-3 gap-4"
+-                                         bis_skin_checked="1"
+                                        >
+                                          <Card>
+                                            <div
+                                              data-slot="card"
+                                              className="text-card-foreground flex flex-col gap-6 rounded-xl border py..."
+-                                             bis_skin_checked="1"
+                                            >
+                                              <CardHeader>
+                                                <div
+                                                  data-slot="card-header"
+                                                  className="@container/card-header grid auto-rows-min grid-rows-[auto..."
+-                                                 bis_skin_checked="1"
+                                                >
+                                                  <div
+                                                    className="flex items-center justify-between mb-4"
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                    <svg>
+                                                    <div
+                                                      className="flex gap-3"
+-                                                     bis_skin_checked="1"
+                                                    >
+                                                  <CardTitle>
+                                                    <div
+                                                      data-slot="card-title"
+                                                      className="font-semibold text-lg text-foreground"
+-                                                     bis_skin_checked="1"
+                                                    >
++                                                     Content Management System
+                                                  <CardDescription>
+                                                    <div
+                                                      data-slot="card-description"
+                                                      className="text-sm text-muted-foreground"
+-                                                     bis_skin_checked="1"
+                                                    >
++                                                     Flexible CMS with custom content types and role-based permissions.
+                                              <CardContent>
+                                                <div
+                                                  data-slot="card-content"
+                                                  className="px-6"
+-                                                 bis_skin_checked="1"
+                                                >
+                                                  <div
+                                                    className="flex flex-wrap gap-2 font-mono text-xs text-muted-foreg..."
+-                                                   bis_skin_checked="1"
+                                                  >
+                                          <Card>
+                                            <div
+                                              data-slot="card"
+                                              className="text-card-foreground flex flex-col gap-6 rounded-xl border py..."
+-                                             bis_skin_checked="1"
+                                            >
+                                              <CardHeader>
+                                                <div
+                                                  data-slot="card-header"
+                                                  className="@container/card-header grid auto-rows-min grid-rows-[auto..."
+-                                                 bis_skin_checked="1"
+                                                >
+                                                  <div
+                                                    className="flex items-center justify-between mb-4"
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                    <svg>
+                                                    <div
+                                                      className="flex gap-3"
+-                                                     bis_skin_checked="1"
+                                                    >
+                                                  <CardTitle>
+                                                    <div
+                                                      data-slot="card-title"
+                                                      className="font-semibold text-lg text-foreground"
+-                                                     bis_skin_checked="1"
+                                                    >
++                                                     Analytics Dashboard
+                                                  <CardDescription>
+                                                    <div
+                                                      data-slot="card-description"
+                                                      className="text-sm text-muted-foreground"
+-                                                     bis_skin_checked="1"
+                                                    >
++                                                     Real-time analytics with data visualization and custom reports.
+                                              <CardContent>
+                                                <div
+                                                  data-slot="card-content"
+                                                  className="px-6"
+-                                                 bis_skin_checked="1"
+                                                >
+                                                  <div
+                                                    className="flex flex-wrap gap-2 font-mono text-xs text-muted-foreg..."
+-                                                   bis_skin_checked="1"
+                                                  >
+                                          <Card>
+                                            <div
+                                              data-slot="card"
+                                              className="text-card-foreground flex flex-col gap-6 rounded-xl border py..."
+-                                             bis_skin_checked="1"
+                                            >
+                                              <CardHeader>
+                                                <div
+                                                  data-slot="card-header"
+                                                  className="@container/card-header grid auto-rows-min grid-rows-[auto..."
+-                                                 bis_skin_checked="1"
+                                                >
+                                                  <div
+                                                    className="flex items-center justify-between mb-4"
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                    <svg>
+                                                    <div
+                                                      className="flex gap-3"
+-                                                     bis_skin_checked="1"
+                                                    >
+                                                  <CardTitle>
+                                                    <div
+                                                      data-slot="card-title"
+                                                      className="font-semibold text-lg text-foreground"
+-                                                     bis_skin_checked="1"
+                                                    >
++                                                     API Gateway
+                                                  <CardDescription>
+                                                    <div
+                                                      data-slot="card-description"
+                                                      className="text-sm text-muted-foreground"
+-                                                     bis_skin_checked="1"
+                                                    >
++                                                     Microservices API gateway with rate limiting and authentication.
+                                              <CardContent>
+                                                <div
+                                                  data-slot="card-content"
+                                                  className="px-6"
+-                                                 bis_skin_checked="1"
+                                                >
+                                                  <div
+                                                    className="flex flex-wrap gap-2 font-mono text-xs text-muted-foreg..."
+-                                                   bis_skin_checked="1"
+                                                  >
+                                          <Card>
+                                            <div
+                                              data-slot="card"
+                                              className="text-card-foreground flex flex-col gap-6 rounded-xl border py..."
+-                                             bis_skin_checked="1"
+                                            >
+                                              <CardHeader>
+                                                <div
+                                                  data-slot="card-header"
+                                                  className="@container/card-header grid auto-rows-min grid-rows-[auto..."
+-                                                 bis_skin_checked="1"
+                                                >
+                                                  <div
+                                                    className="flex items-center justify-between mb-4"
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                    <svg>
+                                                    <div
+                                                      className="flex gap-3"
+-                                                     bis_skin_checked="1"
+                                                    >
+                                                  <CardTitle>
+                                                    <div
+                                                      data-slot="card-title"
+                                                      className="font-semibold text-lg text-foreground"
+-                                                     bis_skin_checked="1"
+                                                    >
++                                                     Portfolio Generator
+                                                  <CardDescription>
+                                                    <div
+                                                      data-slot="card-description"
+                                                      className="text-sm text-muted-foreground"
+-                                                     bis_skin_checked="1"
+                                                    >
++                                                     CLI tool to generate portfolio sites from a config file.
+                                              <CardContent>
+                                                <div
+                                                  data-slot="card-content"
+                                                  className="px-6"
+-                                                 bis_skin_checked="1"
+                                                >
+                                                  <div
+                                                    className="flex flex-wrap gap-2 font-mono text-xs text-muted-foreg..."
+-                                                   bis_skin_checked="1"
+                                                  >
+                            ...
+                  ...
+
+[10:58:58.575] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[10:58:58.575] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/projects","route":"/projects"}
+[10:58:58.575] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/projects color: rgb(120, 120, 120) color: inherit {"dp":"/projects","o":"http://localhost:3000/projects","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765651933597}
+[11:00:56.696] Server  LOG      ✓ Compiled in 416ms
+[11:01:28.047] Server  LOG      ✓ Compiled in 293ms
+[11:01:31.235] Server  LOG      ✓ Compiled in 469ms
+[11:01:33.678] Server  LOG      ✓ Compiled in 634ms
+[16:03:51.568] Server  LOG      ✓ Compiled in 31.1s
+[16:22:20.917] Server  LOG      ✓ Compiled in 91.1s
+[16:23:19.384] Server  LOG      ✓ Compiled in 1905ms
+[16:23:37.891] Server  LOG      ✓ Compiled in 1461ms
+[16:24:21.258] Server  LOG      ✓ Compiled in 3.6s
+[16:24:42.290] Server  LOG      ✓ Compiled in 623ms
+[16:24:45.274] Server  LOG      ✓ Compiled in 678ms
+[27:29:23.585] Server  LOG      ✓ Compiled in 49.9s
+[27:29:55.913] Server  LOG      ✓ Compiled in 2.1s
+[27:34:54.775] Server  LOG      ✓ Compiled in 1412ms
+[27:35:01.038] Server  LOG      ✓ Compiled in 1172ms
+[27:35:14.450] Server  LOG      ✓ Compiled in 4s
+[27:35:34.437] Server  LOG      ✓ Compiled in 2.9s
+[27:35:41.577] Server  LOG      ✓ Compiled in 959ms
+[27:35:52.122] Server  LOG      ✓ Compiled in 1947ms
+[27:36:02.020] Server  LOG      ✓ Compiled in 1960ms
+[27:36:09.834] Server  LOG      ✓ Compiled in 712ms
+[27:36:13.479] Server  LOG      ✓ Compiled in 467ms
+[27:36:30.105] Server  LOG      ✓ Compiled in 507ms
+[27:36:58.991] Server  LOG      ✓ Compiled in 1677ms
+[27:39:44.319] Server  LOG      ✓ Compiled in 307ms
+[27:40:23.173] Server  LOG      ✓ Compiled in 733ms
+[27:43:49.888] Server  LOG      ✓ Compiled in 396ms
+[27:44:02.844] Server  LOG      ✓ Compiled in 1198ms
+[27:44:10.760] Server  LOG      ✓ Compiled in 488ms
+[27:50:53.822] Server  LOG      ✓ Compiled in 2.8s
+[27:56:33.630] Server  LOG      ✓ Compiled in 1815ms
