@@ -48,7 +48,7 @@ export default function ContactPage() {
 
         <div className="flex justify-center gap-6">
           <a
-            href="https://github.com"
+            href="https://github.com/jcodes5"
             target="_blank"
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-primary transition-colors"
@@ -57,7 +57,7 @@ export default function ContactPage() {
             <Github className="h-6 w-6" />
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/overcomer-jatto-bb4153386?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
             target="_blank"
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-primary transition-colors"
@@ -66,7 +66,7 @@ export default function ContactPage() {
             <Linkedin className="h-6 w-6" />
           </a>
           <a
-            href="https://twitter.com"
+            href="https://x.com/Jcodes_25"
             target="_blank"
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-primary transition-colors"
