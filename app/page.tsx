@@ -73,12 +73,19 @@ export default function Home() {
                 </Link>
               </Button>
               <Button
-                asChild
                 variant="outline"
                 size="lg"
                 className="border-primary/50 text-foreground hover:bg-primary/10 hover:border-primary bg-transparent"
+                onClick={() => {
+                  const link = document.createElement('a')
+                  link.href = '/Jatto_Overcomer_CV (1).pdf'
+                  link.download = 'Jatto_Overcomer_CV.pdf'
+                  document.body.appendChild(link)
+                  link.click()
+                  document.body.removeChild(link)
+                }}
               >
-                <Link href="/contact">Get In Touch</Link>
+                Download CV
               </Button>
             </div>
           </div>
