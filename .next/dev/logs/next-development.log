@@ -1,8 +1,7 @@
-[00:02:41.349] Server  LOG      ✓ Ready in 113.1s
-[12:09:54.178] Server  LOG      ○ Compiling / ...
-[12:13:30.218] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[12:13:30.218] Browser ERROR   unhandledRejection: i: Failed to connect to MetaMask
-[12:13:30.218] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[00:05:05.906] Server  LOG      ✓ Ready in 201.5s
+[00:05:09.041] Server  LOG      ○ Compiling / ...
+[00:07:26.971] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:33.381] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -42,8 +41,8 @@ It can also happen if the client has a browser extension installed which messes 
                         <html lang="en" suppressHydrationWarning={true}>
                           <body
                             className="space_grotesk_a4177b3f-module__DCxVEW__variable jetbrains_mono_d5591ac2-module_..."
--                           __processed_e03a7d8d-34e0-4e5c-94ec-97664101833f__="true"
 -                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
+-                           __processed_7936433b-d0cb-4302-933c-12757437f129__="true"
                           >
                             ...
                               <Navigation>
@@ -62,9 +61,8 @@ It can also happen if the client has a browser extension installed which messes 
 -                                     bis_skin_checked="1"
                                     >
                               ...
-                                <SegmentViewNode type="page" pagePath="page.tsx">
-                                  <SegmentTrieNode>
-                                  <Home>
+                                <ClientPageRoot Component={function Home} serverProvidedParams={{...}}>
+                                  <Home params={Promise} searchParams={Promise}>
                                     <section className="min-h-[cal...">
                                       <div
                                         className="absolute inset-0 bg-[linear-gradient(to_right,var(--border)_1px,tra..."
@@ -143,27 +141,9 @@ It can also happen if the client has a browser extension installed which messes 
                                                 className="absolute -bottom-4 -left-4 w-32 h-32 border border-primary/..."
 -                                               bis_skin_checked="1"
                                               >
-                                ...
                             ...
                   ...
 
-[12:13:30.616] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[12:13:30.616] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[12:13:30.616] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765757912387}
-[12:13:36.655] Server  LOG      ○ Compiling /skills ...
-[12:13:43.793] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/skills color: rgb(120, 120, 120) color: inherit {"dp":"/skills","o":"http://localhost:3000/skills","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765757937381}
-[12:14:01.650] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. Next.js
-[12:14:01.650] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/projects color: rgb(120, 120, 120) color: inherit {"dp":"/projects","o":"http://localhost:3000/projects","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765757955225}
-[12:20:29.971] Server  LOG      ✓ Compiled in 457ms
-[12:20:34.210] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. Next.js
-[12:20:55.457] Server  LOG      ✓ Compiled in 766ms
-[12:20:57.169] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. Next.js
-[12:26:26.172] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. Next.js
-[12:26:27.432] Server  LOG      ✓ Compiled in 11.8s
-[19:57:27.133] Server  LOG      ✓ Compiled in 40.6s
-[20:07:09.439] Server  LOG      ✓ Compiled in 2.7s
-[20:07:32.774] Server  LOG      ✓ Compiled in 969ms
-[20:08:34.280] Server  LOG      ✓ Compiled in 1790ms
-[20:09:46.439] Server  LOG      ✓ Compiled in 21.6s
-[20:10:14.480] Server  LOG      ✓ Compiled in 1443ms
-[22:31:44.743] Server  LOG      ✓ Compiled in 123.5s
+[00:07:48.440] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:07:48.440] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:07:48.440] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1765802979755}
