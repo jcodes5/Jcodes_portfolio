@@ -3,7 +3,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { ExternalLink, Github, Folder } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Projects | Fullstack Developer",
+  title: "Projects | Jatto Overcomer - Fullstack Developer",
   description: "Featured projects showcasing my fullstack development skills and experience.",
 }
 
@@ -45,6 +45,15 @@ const featuredProjects = [
     image: "/levic.png",
   },
   {
+    title: "VortiDiv",
+    description:
+      "VortiDiv is a project focused on analyzing atmospheric circulation patterns over Nigeria using ERA5 Reanalysis data with a particular emphasis on Vorticity, Divergence and wind vector dynamics at 800hPa(a key level for low-level monsoon inflow and storm development.",
+    tags: ["Python", "Streamlit", "ERA5(ECMWF Copernicus Data Store", "Jupyter"],
+    link: "https://vortidiv-mxjcgmk3b295jfzzcdlzar.streamlit.app/",
+    github: "https://github.com/jcodes5/vortidiv.git",
+    image: "/vorti.png",
+  },
+  {
     title: "Pollutant Dispersion Simulator",
     description:
       "PDS-Reimagined is a web-based pollutant dispersion simulation tool designed to model and visualize how air pollutants spread under different environmental conditions. It utilizes the Gaussian Plume Model and Open-Meteo API to provide accurate simulations based on real-time weather data, helping users understand the impact of various factors on pollutant dispersion.",
@@ -59,29 +68,29 @@ const featuredProjects = [
 
 const otherProjects = [
   {
-    title: "Content Management System",
-    description: "Flexible CMS with custom content types and role-based permissions.",
-    tags: ["Laravel", "Vue.js", "MySQL"],
-    github: "#",
+    title: "Elevate360",
+    description: "A Nigeria-based alternative for GoHighLevel for Nigerian business and organizations.",
+    tags: ["Nextjs", "MySQL", "Typescript", "Prisma", "TailwindCSS"],
+    github: "https://github.com/jcodes5/Elevate360-crm.git",
   },
   {
-    title: "Analytics Dashboard",
-    description: "Real-time analytics with data visualization and custom reports.",
-    tags: ["Next.js", "Supabase", "Chart.js"],
-    link: "#",
-    github: "#",
+    title: "DFlamez Shot",
+    description: "A Photography portfolio website with a dashbaord for managing bookings and client interactions. and also posting Blogs and work showcase.",
+    tags: ["Next.js", "Supabase", "Next.js"],
+    link: "Still in progress",
+    github: "https://github.com/jcodes5/Dflamez_shotz.git",
   },
   {
-    title: "API Gateway",
-    description: "Microservices API gateway with rate limiting and authentication.",
-    tags: ["Node.js", "Redis", "Docker"],
-    github: "#",
+    title: "Note Me",
+    description: "A LAravel Application for scheduling and sending Notes to frens.",
+    tags: ["Laravel", "Sqlite", "Laravel Breeze", "TailwindCSS", "Alpine.js", "Livewire", "PHP"],
+    github: "https://github.com/jcodes5/Noteme.git",
   },
   {
-    title: "Portfolio Generator",
-    description: "CLI tool to generate portfolio sites from a config file.",
-    tags: ["TypeScript", "Node.js", "CLI"],
-    github: "#",
+    title: "Todo App",
+    description: "A Todo App for managing tasks and projects.",
+    tags: ["Laravel", "Livewire", "TailwindCSS", "Alpine.js", "PHP", "MySQL", "Laravel Breeze"],
+    github: "https://github.com/jcodes5/Todo.git",
   },
 ]
 

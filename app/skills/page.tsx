@@ -2,7 +2,7 @@ import type { Metadata } from "next"
 import { Badge } from "@/components/ui/badge"
 
 export const metadata: Metadata = {
-  title: "Skills | Fullstack Developer Portfolio",
+  title: "Skills | Jatto Overcomer - Fullstack Developer",
   description: "My technical skills and expertise in frontend, backend, databases, and development tools.",
 }
 

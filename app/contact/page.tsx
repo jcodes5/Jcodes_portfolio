@@ -3,12 +3,12 @@ import { Button } from "@/components/ui/button"
 import { Mail, Github, Linkedin, Twitter, MessageCircle } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Contact | Fullstack Developer",
+  title: "Contact | Jatto Overcomer - Fullstack Developer",
   description: "Get in touch with me for opportunities, collaborations, or just to say hello.",
 }
 
 export default function ContactPage() {
-  const phoneNumber = "+2348030567095" // Replace with your actual WhatsApp number (include country code, no + or spaces)
+  const phoneNumber = "+2348030567095" 
   const preWrittenMessage = encodeURIComponent(
     "Hello Jatto! I came across your portfolio and would love to discuss a potential project or opportunity with you.",
   )
@@ -27,7 +27,7 @@ export default function ContactPage() {
 
         <div className="flex flex-col sm:flex-row justify-center gap-4 mb-12">
           <Button asChild size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90">
-            <a href="mailto:hello@example.com" className="flex items-center gap-2">
+            <a href="jattodare002@gmail.com" className="flex items-center gap-2">
               <Mail className="h-4 w-4" />
               Say Hello
             </a>

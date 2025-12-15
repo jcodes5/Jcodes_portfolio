@@ -12,10 +12,10 @@ const typingTexts = [
 ]
 
 const socialLinks = [
-  { icon: Github, href: "https://github.com", label: "GitHub" },
-  { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
-  { icon: Instagram, href: "https://instagram.com", label: "Instagram" },
-  { icon: Twitter, href: "https://twitter.com", label: "Twitter" },
+  { icon: Github, href: "https://github.com/jcodes5", label: "GitHub" },
+  { icon: Linkedin, href: "https://www.linkedin.com/in/overcomer-jatto-bb4153386?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", label: "LinkedIn" },
+  { icon: Instagram, href: "https://www.instagram.com/jco_des?utm_source=qr&igsh=MXZmYmU1OTI3dmNxbQ==", label: "Instagram" },
+  { icon: Twitter, href: "https://x.com/Jcodes_25", label: "Twitter" },
 ]
 
 export default function Home() {
