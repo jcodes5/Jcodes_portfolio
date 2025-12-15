@@ -1,7 +1,9 @@
-import Link from "next/link"
-import { Button } from "@/components/ui/button"
-import { ArrowRight, Github, Linkedin, Instagram, Twitter } from "lucide-react"
-import { TypingAnimation } from "@/components/typing-animation"
+"use client";
+
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
+import { ArrowRight, Github, Linkedin, Instagram, Twitter } from "lucide-react";
+import { TypingAnimation } from "@/components/typing-animation";
 
 const typingTexts = [
   "Hello, I'm Jatto Overcomer",
@@ -9,14 +11,22 @@ const typingTexts = [
   "React & Next.js Expert",
   "Laravel & PHP Specialist",
   "Node.js & Express Dev",
-]
+];
 
 const socialLinks = [
   { icon: Github, href: "https://github.com/jcodes5", label: "GitHub" },
-  { icon: Linkedin, href: "https://www.linkedin.com/in/overcomer-jatto-bb4153386?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", label: "LinkedIn" },
-  { icon: Instagram, href: "https://www.instagram.com/jco_des?utm_source=qr&igsh=MXZmYmU1OTI3dmNxbQ==", label: "Instagram" },
+  {
+    icon: Linkedin,
+    href: "https://www.linkedin.com/in/overcomer-jatto-bb4153386?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    label: "LinkedIn",
+  },
+  {
+    icon: Instagram,
+    href: "https://www.instagram.com/jco_des?utm_source=qr&igsh=MXZmYmU1OTI3dmNxbQ==",
+    label: "Instagram",
+  },
   { icon: Twitter, href: "https://x.com/Jcodes_25", label: "Twitter" },
-]
+];
 
 export default function Home() {
   return (
@@ -33,7 +43,9 @@ export default function Home() {
           <div className="space-y-8">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-primary/30 bg-primary/5">
               <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
-              <span className="text-sm font-mono text-primary">Available for work</span>
+              <span className="text-sm font-mono text-primary">
+                Available for work
+              </span>
             </div>
 
             <div className="space-y-4">
@@ -41,8 +53,9 @@ export default function Home() {
                 <TypingAnimation texts={typingTexts} />
               </h1>
               <p className="text-lg md:text-xl text-muted-foreground leading-relaxed text-pretty max-w-xl">
-                Building exceptional digital experiences with modern web technologies. Specialized in creating
-                performant, accessible, and scalable applications.
+                Building exceptional digital experiences with modern web
+                technologies. Specialized in creating performant, accessible,
+                and scalable applications.
               </p>
             </div>
 
@@ -77,12 +90,12 @@ export default function Home() {
                 size="lg"
                 className="border-primary/50 text-foreground hover:bg-primary/10 hover:border-primary bg-transparent"
                 onClick={() => {
-                  const link = document.createElement('a')
-                  link.href = '/Jatto_Overcomer_CV (1).pdf'
-                  link.download = 'Jatto_Overcomer_CV.pdf'
-                  document.body.appendChild(link)
-                  link.click()
-                  document.body.removeChild(link)
+                  const link = document.createElement("a");
+                  link.href = "/Jatto_Overcomer_CV (1).pdf";
+                  link.download = "Jatto_Overcomer_CV.pdf";
+                  document.body.appendChild(link);
+                  link.click();
+                  document.body.removeChild(link);
                 }}
               >
                 Download CV
@@ -100,13 +113,15 @@ export default function Home() {
                   <div className="w-3 h-3 rounded-full bg-destructive/70" />
                   <div className="w-3 h-3 rounded-full bg-yellow-500/70" />
                   <div className="w-3 h-3 rounded-full bg-primary/70" />
-                  <span className="ml-2 text-xs text-muted-foreground font-mono">developer.tsx</span>
+                  <span className="ml-2 text-xs text-muted-foreground font-mono">
+                    developer.tsx
+                  </span>
                 </div>
                 {/* Code content */}
                 <div className="p-6 font-mono text-sm space-y-2">
                   <p>
-                    <span className="text-primary">const</span> <span className="text-foreground">developer</span> ={" "}
-                    {"{"}
+                    <span className="text-primary">const</span>{" "}
+                    <span className="text-foreground">developer</span> = {"{"}
                   </p>
                   <p className="pl-4">
                     <span className="text-muted-foreground">name:</span>{" "}
@@ -114,7 +129,10 @@ export default function Home() {
                   </p>
                   <p className="pl-4">
                     <span className="text-muted-foreground">role:</span>{" "}
-                    <span className="text-primary">{'"Fullstack Developer"'}</span>,
+                    <span className="text-primary">
+                      {'"Fullstack Developer"'}
+                    </span>
+                    ,
                   </p>
                   <p className="pl-4">
                     <span className="text-muted-foreground">skills:</span> [
@@ -134,7 +152,9 @@ export default function Home() {
                   <p className="pl-4">],</p>
                   <p className="pl-4">
                     <span className="text-muted-foreground">passion:</span>{" "}
-                    <span className="text-primary">{'"Building amazing apps"'}</span>
+                    <span className="text-primary">
+                      {'"Building amazing apps"'}
+                    </span>
                   </p>
                   <p>{"};"}</p>
                 </div>
@@ -147,5 +167,5 @@ export default function Home() {
         </div>
       </div>
     </section>
-  )
+  );
 }
