@@ -27,13 +27,13 @@ const featuredProjects = [
     image: "/levic-boot.png",
   },
   {
-    title: "The weather and everything",
+    title: "BreatheSafe",
     description:
-      "The Weather and Everything is a climate-focused platform dedicated to raising awareness, educating communities, and inspiring action on climate change and environmental sustainability, with a strong emphasis on youth engagement and community impact.",
-    tags: ["React", "Next.js", "MySQL", "resend"],
-    link: "https://theweatherandeverything.org/",
-    github: "https://github.com/jcodes5/TWE.git",
-    image: "/twe.png",
+      "BreatheSafe is a PWA built for Monitoring Air quality in Nigeria, dedicated to promoting public health and environmental awareness by providing real-time air quality data, forecasts, and insights to help individuals make informed decisions about their health and well-being.",
+    tags: ["React", "Node Js", "MySQL", "Open-meteo API", "OpenAQ"],
+    link: "https://breathe-safe-henna.vercel.app/",
+    github: "https://github.com/jcodes5/BreatheSafe.git",
+    image: "/dash.png",
   },
   {
     title: "Levic Digital Agency",

@@ -88,7 +88,7 @@ export default function Home() {
               <Button
                 variant="outline"
                 size="lg"
-                className="border-primary/50 text-foreground hover:bg-primary/10 hover:border-primary bg-transparent"
+                className="border-primary/50 text-primary hover:bg-primary/10 hover:border-primary bg-transparent"
                 onClick={() => {
                   const link = document.createElement("a");
                   link.href = "/Jatto_Overcomer_CV (1).pdf";
