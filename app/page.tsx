@@ -91,7 +91,7 @@ export default function Home() {
                 className="border-primary/50 text-primary hover:bg-primary/10 hover:border-primary bg-transparent"
                 onClick={() => {
                   const link = document.createElement("a");
-                  link.href = "/Jatto_Overcomer_CV (1).pdf";
+                  link.href = "/Jatto_Overcomer_CV.pdf";
                   link.download = "Jatto_Overcomer_CV.pdf";
                   document.body.appendChild(link);
                   link.click();

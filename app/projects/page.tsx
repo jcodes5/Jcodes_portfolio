@@ -36,6 +36,33 @@ const featuredProjects = [
     image: "/dash.png",
   },
   {
+    title: "Kogi state Environmental Intelligence platform",
+    description:
+      "KSEIP (Kogi State Environmental Intelligence Platform) is a centralized digital platform that provides real-time environmental data, weather insights, disaster monitoring, and geospatial intelligence across Kogi State.",
+    tags: ["React", "Node Js", "Open-meteo API", "OpenAQ", "GIS", "Guassian-plume"],
+    link: "https://kogistateenvironmentplatform.vercel.app/",
+    github: "https://github.com/jcodes5/KSEIP_frontend.git",
+    image: "/kseip (2).png",
+  },    
+  {
+    title: "CrawftworldCentre",
+    description:
+      "CraftworldCentre is a circular economy Marketplace.",
+    tags: ["React", "Node Js", "MySQL", "Open-meteo API", "OpenAQ"],
+    link: "https://craftworldcentre.com/",
+    github: "https://github.com/jcodes5/CW-Frontend.git",
+    image: "/cwc.png",
+  },
+  {
+    title: "The weather and everything",
+    description:
+      "An Non-governmental organization on weather, climate change and environmental action.",
+    tags: ["NextJs",  "MySQL", "Prisma ORM", "Open-meteo API", "Socket"],
+    link: "https://theweatherandeverything.org/",
+    github: "https://github.com/jcodes5/TWE.git",
+    image: "/twe.png",
+  },
+  {
     title: "Levic Digital Agency",
     description:
       "Levic Digital Agency is a full-service digital marketing and creative agency that helps businesses grow, build their brand, and stand out online. The site offers services like digital marketing, social media management & ads, web design and development, branding & graphics, and related tech-driven solutions to support business growth and visibility in the digital space.",
